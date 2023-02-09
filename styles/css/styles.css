@@ -6,12 +6,11 @@ html, body {
     font-size: 1rem;
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
     width: 100%;
 }
 
 ::selection {
-    background-color:  hsl(231, 69%, 60%);
+    background-color: #5368DF;
     color: #fff;
 }
 
@@ -23,7 +22,7 @@ html, body {
 h1 {
     font-weight: 500;
     font-size: 2rem;
-    color: hsl(229, 31, 21);
+    color: #252B46;
     padding: 0 30px 0 0;
 }
 
@@ -33,7 +32,7 @@ h2 {
 }
 
 p {
-    color: hsl(229, 8%, 60%);
+    color: #9194A1;
     font-size: 1rem;
     font-weight: 400;
     line-height: 1.5rem;
@@ -49,24 +48,24 @@ p {
     text-decoration: none;
     color: #fff;
     font-size: .8rem;
-    background-color:  hsl(231, 69%, 60%);
+    background-color: #5368DF;
 }
 
 .buttons a:hover {
     background-color: #fff;
-    outline: 2px solid  hsl(231, 69%, 60%);
-    color:  hsl(231, 69%, 60%);
+    outline: 2px solid #5368DF;
+    color: #5368DF;
 }
 
 .buttons a.secondary-cta {
     background-color: #fff;
-    box-shadow: 1px 2px 5px 2px  hsl(0, 0%, 94%);
-    color: hsl(229, 31%, 21%);
+    box-shadow: 1px 2px 5px 2px #F0F0F0;
+    color: #252B46;
     font-weight: 500;
 }
 
 .buttons a.secondary-cta:hover {
-    outline: 2px solid hsl(229, 31%, 21%);
+    outline: 2px solid #252B46;
 }
 
 .grid-container {
@@ -83,7 +82,7 @@ p {
 }
 
 .navbar a {
-    color: hsl(229, 31%, 21%);
+    color: #252B46;
     font-weight:500;
     font-size: .7rem;
     text-decoration: none;
@@ -95,18 +94,18 @@ p {
 }
 
 .navbar a:hover {
-    color: hsl(0, 94%, 66%);
+    color: #FA5757;
 }
 
 .navbar a:last-child {
-    background-color: hsl(0, 94%, 66%);
+    background-color: #FA5757;
     color: #fff;
 }
 
 .navbar a:last-child:hover {
-    color: hsl(0, 94%, 66%);
+    color: #FA5757;
     background-color: #fff;
-    outline: 2px solid hsl(0, 94%, 66%);
+    outline: 2px solid #FA5757;
 }
 
 .navbar-footer p {
@@ -151,7 +150,7 @@ p {
     border-bottom-left-radius: 100px;
     margin: 200px 0 0 668px;
     z-index: -10;
-    background-color: hsl(231, 69%, 60%);
+    background-color: #5368DF;
 }
 
 .bg-blue-two {
@@ -161,7 +160,7 @@ p {
     border-bottom-right-radius: 100px;
     margin: 120px 0 0 -100px;
     z-index: -10;
-    background-color: hsl(231, 69%, 60%);
+    background-color: #5368DF;
 }
 
 /* Features section */
@@ -183,21 +182,21 @@ p {
 }
 
 .features-list a {
-    color: hsl(229, 8%, 60%);
+    color: #9194A1;
     font-size: .8rem;
     font-weight: 500;
     text-decoration: none;
-    border-bottom: 1px solid hsl(229, 8%, 60%);
+    border-bottom: 1px solid #9194A1;
     padding: 20px 40px;
 }
 
 .features-list a:hover {
-    color: hsl(0, 94%, 66%);
+    color: #FA5757;
 }
 
 .features-list a.active {
-    border-bottom: 3px solid hsl(0, 94%, 66%);
-    color: hsl(229, 31%, 21%);
+    border-bottom: 3px solid #FA5757;
+    color: #252B46;
 }
 
 
@@ -239,7 +238,7 @@ p {
     margin: 0 15px;
     border-radius: 8px;
     height: 50%;
-    box-shadow: 1px 2px 5px 2px  hsl(0, 0%, 94%);
+    box-shadow: 1px 2px 5px 2px  #F0F0F0;
 }
 
 .browsers-list:nth-child(2) {
@@ -306,18 +305,18 @@ p {
     text-align: left;
     padding: 20px 0;
     width: 50%;
-    border-top: 1px solid hsl(229, 8%, 60%);
-    border-bottom: 1px solid hsl(229, 8%, 60%);
+    border-top: 1px solid #9194A1;
+    border-bottom: 1px solid #9194A1;
     text-decoration: none;
 }
 
 .faq-title a {
     text-decoration: none;
-    color: hsl(229, 31%, 21%);
+    color: #252B46;
 }
 
 .faq-title a:hover {
-    color: hsl(0, 94%, 66%);
+    color: #FA5757;
 }
 
 .faq-title img {
@@ -337,7 +336,7 @@ p {
 }
 
 .newsletter-section {
-    background-color: hsl(231, 69%, 60%);
+    background-color: #5368DF;
     text-align: center;
     margin: 0 auto;
     padding: 40px 0 60px 0;
@@ -362,28 +361,28 @@ p {
     border: none;
     border-radius: 4px;
     width: 16%;
-    color: hsl(229, 8%, 60%);
+    color: #9194A1;
 }
 
 .newsletter-section input:focus {
-    outline: 2px solid hsl(0, 94%, 66%);
+    outline: 2px solid #FA5757;
 }
 
 .newsletter-section .buttons a {
-    background-color: hsl(0, 94%, 66%);
+    background-color: #FA5757;
 }
 
 .newsletter-section .buttons a:hover {
     background-color: #fff;
-    color: hsl(0, 94%, 66%);
-    outline: 2px solid hsl(0, 94%, 66%);
+    color: #FA5757;
+    outline: 2px solid #FA5757;
 }
 
 .footer-section {
     display: grid;
     grid-template-columns: 1fr 1fr;
     margin: 0 auto;
-    background-color: hsl(229, 31%, 21%);
+    background-color: #252B46;
 }
 
 .footer-logo-nav {
@@ -400,7 +399,6 @@ p {
 
 .navbar-footer {
     display: flex;
-    justify-content: left;
 }
 
 .navbar-footer a {
@@ -412,7 +410,7 @@ p {
 }
 
 .navbar-footer a:hover {
-    color: hsl(0, 94%, 66%);
+    color: #FA5757;
 }
 
 .social-icons {
@@ -425,13 +423,13 @@ p {
 }
 
 .social-icons svg:hover {
-    fill: hsl(0, 94%, 66%);
+    fill: #FA5757;
 }
 
 .attribution {
     width: 85%;
     text-align: center;
-    color: hsl(229, 8%, 60%);
+    color: #9194A1;
     padding: 0;
     margin: 0 auto;
 }
@@ -445,6 +443,6 @@ p {
 .attribution a {
     text-decoration: none;
     font-size: .7rem;
-    color: hsl(229, 31%, 21%);
+    color: #252B46;
    
 }
